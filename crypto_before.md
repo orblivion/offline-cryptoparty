@@ -1,4 +1,4 @@
-## Why?
+## What am I doing here, and why am I doing this?
 
 In order to allow for a crypto party with a bad or nonexistent Internet connection, it would help to have all of the installers on hand. However, this poses a threat: Like your mom always told you, don't take crypto software from strangers! The instructions here will give you information that will allow you to verify the software that this person gives you. It is likely that not everybody will have time to follow these instructions, but putting this out there means that you're trusting not one person, but the most trustworthy of an *open* pool of people (a closed group could be in cahoots). So it would be appreciated if you help us by being an additional sentry. Doing it on location is fine as well, if you find an Internet connection there you trust, however doing it ahead of time removes more possibility of smoke and mirrors.
 
@@ -6,30 +6,46 @@ In order to allow for a crypto party with a bad or nonexistent Internet connecti
 
 ## Instructions
 
-All I want you to do is to create a text file with the following 6 pieces of information, each of which is 40 characters long, and label them. You don't have to know what it means now; hopefully there are enough knowledgable people at the cryptoparty that you can trust that it assures you of your software:
+Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages. Again, each piece of information is just 40 alphanumeric characters.
 
-### [From here,](././.) you should find these clearly labeled on the page:
+First GnuPG. If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows and gpgtools.org for Mac OS X.
 
-* GnuPG Windows installation sha1 checksum
+### 1) GPG4Win checksums
 
-* GnuPG Mac installation sha1 checksum
+* Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
+* Copy the sha1 checksums for the main installer. (TODO: give name)
 
-* GnuPG Linux installation sha1 checksum
+### 2) GPG4Win Signing Key Fingerprint
 
-### [From here:](././.)
+* Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
+* From here, click the link to the [Intervation File Distribution Key](https://ssl.intevation.de/). It's under **OpenPGP Signatures**.
+* From here, click on [Intevation-Distribution-Key](https://ssl.intevation.de/Intevation-Distribution-Key.asc). It's under **Other Keys/Certificates** on the right (in English).
+* Here you will see "Key fingerprint = ". Copy what comes after that.
 
-* GnuPG Signing Key Fingerprint
+### 3) GPGTools checksum
 
-  * Find where it says "..." The fingerprint is directly after that.
+* Visit the [GPGTools](https://gpgtools.org/) homepage. 
+* Under "GPG Suite" at the very bottom, under MacGPG, you will see *SHA-1*. Copy the string of characters that follow.
 
-### [From here:](././.)
+### 4) GPGTools signing key
 
-* Mozilla Signing Key Fingerprint
+* Visit this [support discussion](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file) for GPGTools. (I had to google for it, but you should note that it's on the gpgtools.org domain.)
+* See Steve's second comment, where he gives the Fingerprint. Copy that. Note that this is labeled as a staff post.
 
-  * Find where it says "..." The fingerprint is directly after that.
+### 5) Enigmail signing key
 
-### [From here,](././.) you should find this clearly labeled on the page:
+* Visit Enigmail's [integrity page](https://www.enigmail.net/documentation/signature.php).
+* Copy what comes after "Fingerprint:".
 
-* Enigmail Signing Key Fingerprint
+### 6) Mozilla releases signing key
+
+* Visit Mozilla's [signing key page](http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/25.0/KEY) (again, I had to google for it, but it's on their domain).
+* Copy what comes after "Key Fingerprint:" (above the big block of random stuff).
+
+## Thanks!
+
+I appreciate going out of your way to help me with this experiment.
 
 It's pretty cool how this works. You'll basically be using the same cryptography software you use to 
+
+You may be wondering about Linux. Unfortunately that got too complicated so I'm putting it off. Rather ironic, since Debian-based distributions such as Ubuntu have all the necessary signing keys built in. However installer files for Linux distros tend to be rather particular because of package management. I have to set up a package mirror to make it work, I think.
