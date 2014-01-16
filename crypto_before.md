@@ -1,8 +1,14 @@
 ## What am I doing here, and why am I doing this?
 
-In order to allow for a crypto party with a bad or nonexistent Internet connection, it would help to have all of the installers on hand. However, this poses a threat: Like your mom always told you, don't take crypto software from strangers! The instructions here will give you information that will allow you to verify the software that this person gives you. It is likely that not everybody will have time to follow these instructions, but putting this out there means that you're trusting not one person, but the most trustworthy of an *open* pool of people (a closed group could be in cahoots). So it would be appreciated if you help us by being an additional sentry. Doing it on location is fine as well, if you find an Internet connection there you trust, however doing it ahead of time removes more possibility of smoke and mirrors.
+In order to allow for a crypto party with a bad or nonexistent Internet connection, it would save a lot of time to have the installers on hand. However, this poses a threat: Like your mom always told you, don't take crypto software from strangers! The instructions here will give you information that will allow you to verify the software that this person gives you. It is likely that not everybody will have time to follow these instructions, but putting this out there means that you're trusting not one person, but the most trustworthy of an *open* pool of people (a closed group could be in cahoots). So it would be appreciated if you help us by being an additional sentry. Doing it on location is fine as well, if you find an Internet connection there you trust, however doing it ahead of time removes more possibility of smoke and mirrors.
 
-(Note: Granted, even your current Internet connection could be compromised, but this system gives you att least assurances that you would have on your current connection, as opposed to this one stranger's software.)
+### Why not just download the actual software now?
+
+You should feel free to do so. However, not everybody may get around to following these instructions. It would be nice to be able to still get them set up quickly with software on hand despite a bad or nonexistent connection. For this reason, it would be good to have as many people on hand as possible to have this verification data on hand, to serve as guardians by doublechecking the software handed to them.
+
+### Should I trust someting over the open Internet anyway
+
+Granted, even your current Internet connection could be compromised, but this system gives you at least the same assurances that you would have on your current connection, as opposed to trusting one stranger and their software.
 
 ## Instructions
 
