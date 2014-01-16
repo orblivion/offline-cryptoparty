@@ -12,7 +12,7 @@
 * Pretend we're at Rogers Campground in New Hampshire
 * Download from me, but don't trust my software. I'll show you why we can trust it. Other crypto-aware people serve as a check.
 * Everybody hop on your chosen source of Internet connection, go to the following page, and get this info, unless you already have:
-  * gitorious.com/orblivion/cryptoparty-kit
+  * github.com/orblivion/offline-cryptoparty
 
 Here's what you will be installing, but don't install it yet:
 
