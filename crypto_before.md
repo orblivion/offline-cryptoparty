@@ -22,7 +22,7 @@ Since this is for the sake of verifying untrusted information, you should straig
 
 * If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
-* Copy the SHA-1 checksum for `gpg4win-2.2.1.exe`
+* Under the **SHA1 checksums** header, copy the string of characters to the left of `gpg4win-2.2.1.exe`
 
 ### 2) GPG4Win Signing Key PGP Fingerprint
 
