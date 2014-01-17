@@ -4,7 +4,7 @@ In order to allow for a crypto party with a bad or nonexistent Internet connecti
 
 ### Why not just download the actual software now?
 
-You should feel free to do so. However, again, not everybody may get around to following these instructions. It would be nice to be able to still get them set up quickly with software on hand despite a bad or nonexistent connection.
+You should feel free to do so. However, again, not everybody may get around to following these instructions before the event. If there are enough guardians who grab the information here, the stragglers can still arguably feel safe installing software given to them.
 
 ### Should I be trusting something over the open Internet anyway?
 
