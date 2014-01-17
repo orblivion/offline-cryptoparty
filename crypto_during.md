@@ -10,41 +10,76 @@
 
 ## A Favor for Me
 
-* Speak Up! If you're crypto-aware, stop me if I'm wrong. Others: do not trust me in particular!
-* Pretend we're at Rogers Campground in New Hampshire
-* Download from me, but don't trust my software. I'll show you why we can trust it. Other crypto-aware people serve as a check.
-* Everybody hop on your chosen source of Internet connection, go to the following page, and get this info, unless you already have:
-  * github.com/orblivion/offline-cryptoparty
+* Experiment
+  * low or no bandwidth
+  * Pretend we're at Porcfest (at a campground in rural New Hampshire)
+* PGP is not normally this complicated!
+  * This experiment is somewhat complicated, but afterwards there will be no need for cmd line
+* Trust
+  * Crypto aware: Speak Up! Stop me if I'm wrong.
+  * Not crypto aware: Do not trust me! (in particular)
+  * I'll (hopefully) convince everybody that you can trust my software.
+* Sha1sums and Fingerprints for software
+  * Did you get them ahead of time?
+  * If not, hop on your chosen source of Internet connection, go here:
+    * github.com/orblivion/offline-cryptoparty/crypto_before.md
 
-Here's what you will be installing, but don't install it yet:
+## Installers
 
-* Windows
-Sha1Sum program
-Thunderbird
-GPG
-Enigmail
-<a href="blah.zip">Link with everything Windows, Mac, and Linux></a>
+Please download [everybody's installers](althethings.zip) what you will be installing, but don't install it yet:
 
-* Mac
+TODO Link above with everything Windows and Mac, and Enigmail Linux
 
-Thunderbird (versions)
-GPG (versions)
-Enigmail (versions)
-<a href="blah.zip">Link with everything Windows, Mac, and Linux></a>
+### Windows
 
-* Linux
+* Sha1Sum program
+* Thunderbird
+* GPG
+* Enigmail
 
-Thunderbird (versions, per OS)
-GPG (only if you don't already have it. Debian, Ubuntu, Mint, for instance, should already have it. try running gpg in a command line) (per OS)
-Enigmail (versions, per thunderbird)
-<a href="blah.tar.bz">Link with everything Windows, Mac, and Linux></a>
+### Mac
 
-Extract your files into a directory. DO NOT install anything without being told to, because you do not know the authenticity of these files. Kids, don't take crypto software from strangers! What we have in front of you are everybody's installers. What I aim to establish, as sure as you can be over the open Internet, is that these are the genuine installer files. Here are the steps to this:
+* Thunderbird (versions)
+* GPG (versions)
+* Enigmail (versions)
 
-1) Windows Users: Look at the sha1sum program. Right click on it. You will see that it is signed by Microsoft. This is using the Certificate Authority system built into Windows. It's not great, but it's as good as you'll get in your general Windows experience. Once you're satisfied, install this program. This program will help you verify files.
-2) GPG users, run:
+### Linux
 
-gpg --recv_keys .... (all the keys)
+* Didn't finish your part of the experiment done in time.
+* Thunderbird (from repository)
+* GPG
+  * If you have a Debian or a derived distro, such as Ubuntu or Mint, you already have it.
+  * from repository otherwise
+* Enigmail (from repository, or using Thunderbird's interface)
+
+## Instructions
+
+### Extract
+
+* **DON'T** install anything yet.
+  * Kids, don't take crypto software from strangers!
+* You have everybody's installers. You will help verify each other's stuff.
+* No less secure than open Internet.
+
+### Windows Only
+
+* Find sha1sum program # TODO get its name
+* Right click on it.
+  * Digital Signature
+  * Microsoft Corporation
+  * Certificate Authority
+* Once satisfied, go ahead and install.
+* You can verify files. (Linux and Mac have this built in)
+
+### People with GPG already
+
+* Get all the development keys from my keyserver
+  * gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys
+  * don't trust them yet!
+  * gpg --fingerprint TODO some filter for the right ones, hmm
+  * Check that they match what you got.
+  * Now you can trust them.
+* gpg --verify 
 
 1) People with GPG already installed can check the GPG signature of all the GPG installers to confirm that the copy *they* have on their computer is legitimate.
 2) Everybody run the sha1sum -c (or equivalent) on gpg_installers.sha1 file. This establishes that all of the files match the description in the gpg_installers.sha1sum file I supplied. Take a look at the file to see that it points to all GPG installers. This doesn't establish much yet, since I supplied gpg_installers.sha1sum.
