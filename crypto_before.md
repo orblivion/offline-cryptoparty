@@ -55,7 +55,7 @@ Since this is for the sake of verifying untrusted information, you should go str
 ### 6) Mozilla Releases Signing Key PGP Fingerprint
 
 * Visit Mozilla's [signing key page](http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/25.0/KEY) (again, I had to google for it, but it's on their domain).
-* Copy what comes after "Key Fingerprint:" (above the big block of random stuff).
+* Copy what comes after "Key fingerprint = " (above the big block of random stuff).
 * It should look something like `98C5 D66D 7ED8 6C72 E3E5  953D 4DFC 65D0 2B4F 7864`
 
 ## Thanks!
