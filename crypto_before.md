@@ -12,7 +12,7 @@ Granted, even your current Internet connection could theoretically be compromise
 
 ## Instructions
 
-You will gather 6 pieces of information, each of which is 40 alphanumeric characters. Some are known as SHA-1 sums, and the others are known as PGP fingerprints. You need not know what these means now. Your host, and any other crypto-aware guests, will explain it to you at the party, and what they can do to confirm the software.
+You will gather 6 pieces of information, each of which is 40 alphanumeric characters, and just save them, labeled, in a text file that you will bring to the party. Some are known as SHA-1 sums, and the others are known as PGP fingerprints. You need not know what these means now. Your host, and any other crypto-aware guests, will explain it to you at the party, and what they can do to confirm the software.
 
 Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages.
 
