@@ -6,7 +6,7 @@ In order to allow for a crypto party with a bad or nonexistent Internet connecti
 
 You should feel free to do so. However, not everybody may get around to following these instructions. It would be nice to be able to still get them set up quickly with software on hand despite a bad or nonexistent connection. For this reason, it would be good to have as many people on hand as possible to have this verification data on hand, to serve as guardians by doublechecking the software handed to them.
 
-### Should I trust someting over the open Internet anyway
+### Should I be trusting something over the open Internet anyway?
 
 Granted, even your current Internet connection could be compromised, but this system gives you at least the same assurances that you would have on your current connection, as opposed to trusting one stranger and their software.
 
