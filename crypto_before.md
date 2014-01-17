@@ -37,7 +37,7 @@ Obviously it would make no sense as far a trust goes to give you the data myself
 
 ### 4) GPGTools signing key
 
-* Visit this [support discussion](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file) for GPGTools. (I had to google for it, but you should note that it's on the gpgtools.org domain.)
+* Visit this [support discussion](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file) for GPGTools. (Yeah it's pretty lame. I had to google for it, but you should note that it *is* on the gpgtools.org domain.)
 * See Steve's second comment, where he gives the Fingerprint. Copy that. Note that this is labeled as a staff post.
 
 ### 5) Enigmail signing key
