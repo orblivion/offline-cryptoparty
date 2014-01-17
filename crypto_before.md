@@ -16,36 +16,36 @@ You will gather 6 pieces of information, each of which is 40 alphanumeric charac
 
 Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages.
 
-### 1) GPG4Win checksums
+### 1) GPG4Win SHA-1 sum
 
 * If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
 * Copy the SHA-1 checksum for `gpg4win-2.2.1.exe`
 
-### 2) GPG4Win Signing Key Fingerprint
+### 2) GPG4Win Signing Key PGP Fingerprint
 
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
 * From here, click the link to the [Intervation File Distribution Key](https://ssl.intevation.de/). It's under **OpenPGP Signatures**.
 * From here, click on [Intevation-Distribution-Key](https://ssl.intevation.de/Intevation-Distribution-Key.asc). It's under **Other Keys/Certificates** on the right (in English).
 * On the second line here, you will see "Key fingerprint = ". Copy what comes after that.
 
-### 3) GPGTools checksum
+### 3) GPGTools SHA-1 sum
 
 * If you go to: http://www.gnupg.org/ you will see that it endorses gpgtools.org for Mac OS X.
 * Visit the [GPGTools](https://gpgtools.org/) homepage. 
 * Under "GPG Suite" at the very bottom, under MacGPG, you will see *SHA-1*. Copy the string of characters that follow.
 
-### 4) GPGTools signing key
+### 4) GPGTools Signing Key PGP Fingerprint
 
 * Visit this [support discussion](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file) for GPGTools. (Yeah it's pretty lame. I had to google for it, but you should note that it *is* on the gpgtools.org domain.)
 * See Steve's [second comment](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file#comment_30424358), where he gives the Fingerprint. Copy that. Note that this is labeled as a staff post.
 
-### 5) Enigmail signing key
+### 5) Enigmail Signing Key PGP Fingerprint
 
 * Visit Enigmail's [integrity page](https://www.enigmail.net/documentation/signature.php).
 * Copy what comes after "Fingerprint:".
 
-### 6) Mozilla releases signing key
+### 6) Mozilla Releases Signing Key PGP Fingerprint
 
 * Visit Mozilla's [signing key page](http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/25.0/KEY) (again, I had to google for it, but it's on their domain).
 * Copy what comes after "Key Fingerprint:" (above the big block of random stuff).
