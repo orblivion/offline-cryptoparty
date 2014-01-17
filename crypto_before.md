@@ -16,13 +16,14 @@ You will gather 6 pieces of information, each of which is 40 alphanumeric charac
 
 Simply save them, labeled, in a text file that you will bring to the party. Some are known as SHA-1 sums, and the others are known as PGP fingerprints.
 
-Since this is for the sake of verifying untrusted information, you should straight to the source, rather than this not-so-trusted page. (Especially if the host of the party sent you to this page). So, instead, this will guide you to how to find it from official pages.
+Since this is for the sake of verifying untrusted information, you should go straight to the source, rather than this not-so-trusted page. (Especially if the host of the party sent you to this page). So, instead, this will guide you to how to find it from official pages.
 
 ### 1) GPG4Win SHA-1 sum
 
 * If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
 * Under the **SHA1 checksums** header, copy the string of characters to the left of `gpg4win-2.2.1.exe`
+* It should look something like `29d77c74cc8034054ec050a4099d722759a1a18f`
 
 ### 2) GPG4Win Signing Key PGP Fingerprint
 
@@ -30,27 +31,32 @@ Since this is for the sake of verifying untrusted information, you should straig
 * This time, click the link to the [Intervation File Distribution Key](https://ssl.intevation.de/). It's under **OpenPGP Signatures**.
 * From here, click on [Intevation-Distribution-Key](https://ssl.intevation.de/Intevation-Distribution-Key.asc). It's under **Other Keys/Certificates** on the right (in English).
 * On the second line here, you will see "Key fingerprint = ". Copy what comes after that.
+* It should look something like `98C5 D66D 7ED8 6C72 E3E5  953D 4DFC 65D0 2B4F 7864`
 
 ### 3) GPGTools SHA-1 sum
 
 * If you go to: http://www.gnupg.org/ you will see that it endorses gpgtools.org for Mac OS X.
 * Visit the [GPGTools](https://gpgtools.org/) homepage. 
 * Under "GPG Suite" at the very bottom, under MacGPG, you will see *SHA-1*. Copy the string of characters that follow.
+* It should look something like `29d77c74cc8034054ec050a4099d722759a1a18f`
 
 ### 4) GPGTools Signing Key PGP Fingerprint
 
 * Visit this [support discussion](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file) for GPGTools. (Yeah it's pretty lame. I had to google for it, but you should note that it *is* on the gpgtools.org domain.)
 * See Steve's [second comment](http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file#comment_30424358), where he gives the Fingerprint. Copy that. Note that this is labeled as a staff post.
+* It should look something like `98C5 D66D 7ED8 6C72 E3E5 953D 4DFC 65D0 2B4F 7864`
 
 ### 5) Enigmail Signing Key PGP Fingerprint
 
 * Visit Enigmail's [integrity page](https://www.enigmail.net/documentation/signature.php).
 * Copy what comes after "Fingerprint:".
+* It should look something like `98C5 D66D 7ED8 6C72 E3E5 953D 4DFC 65D0 2B4F 7864`
 
 ### 6) Mozilla Releases Signing Key PGP Fingerprint
 
 * Visit Mozilla's [signing key page](http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/25.0/KEY) (again, I had to google for it, but it's on their domain).
 * Copy what comes after "Key Fingerprint:" (above the big block of random stuff).
+* It should look something like `98C5 D66D 7ED8 6C72 E3E5  953D 4DFC 65D0 2B4F 7864`
 
 ## Thanks!
 
