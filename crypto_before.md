@@ -8,7 +8,7 @@ You should feel free to do so. However, not everybody may get around to followin
 
 ### Should I be trusting something over the open Internet anyway?
 
-Granted, even your current Internet connection could be compromised, but this system gives you at least the same assurances that you would have on your current connection, as opposed to trusting one stranger and their software.
+Granted, even your current Internet connection could theoretically be compromised, but there's not much to be done about that. This system aims to not be any *less* secure than your normal Internet connection.
 
 ## Instructions
 
