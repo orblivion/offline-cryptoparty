@@ -26,8 +26,8 @@ Since this is for the sake of verifying untrusted information, you should straig
 
 ### 2) GPG4Win Signing Key PGP Fingerprint
 
-* Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
-* From here, click the link to the [Intervation File Distribution Key](https://ssl.intevation.de/). It's under **OpenPGP Signatures**.
+* Again, visit the [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
+* This time, click the link to the [Intervation File Distribution Key](https://ssl.intevation.de/). It's under **OpenPGP Signatures**.
 * From here, click on [Intevation-Distribution-Key](https://ssl.intevation.de/Intevation-Distribution-Key.asc). It's under **Other Keys/Certificates** on the right (in English).
 * On the second line here, you will see "Key fingerprint = ". Copy what comes after that.
 
