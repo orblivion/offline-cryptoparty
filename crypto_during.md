@@ -26,9 +26,8 @@
 
 ## Installers
 
-Please download [everybody's installers](althethings.zip) what you will be installing, but don't install it yet:
+What you'll be installing:
 
-TODO Link above with everything Windows and Mac, and Enigmail Linux
 
 ### Windows
 
@@ -53,6 +52,16 @@ TODO Link above with everything Windows and Mac, and Enigmail Linux
 * Enigmail (from repository, or using Thunderbird's interface)
 
 ## Instructions
+
+### Download
+
+* Everybody's installers
+  * Help verify each other
+* **don't** install it yet, first we verify
+* As a [zip file](installers/althecryptothings.zip) (Mac and Windows)
+* As a [tar.gz file](installers/althecryptothings.tar.gz) (Mac and Windows)
+
+TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess just put the files there.
 
 ### Extract
 
