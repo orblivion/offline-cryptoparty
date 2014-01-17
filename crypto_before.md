@@ -52,6 +52,4 @@ First GnuPG. If you go to: http://www.gnupg.org/ you will see that it endorses g
 
 I appreciate going out of your way to help me with this experiment.
 
-It's pretty cool how this works. You'll basically be using the same cryptography software you use to 
-
-You may be wondering about Linux. Unfortunately that got too complicated so I'm putting it off. Rather ironic, since Debian-based distributions such as Ubuntu have all the necessary signing keys built in. However installer files for Linux distros tend to be rather particular because of package management. I have to set up a package mirror to make it work, I think.
+By the way, you may be wondering about Linux. Unfortunately that got too complicated so I'm putting it off. Rather ironic, since Debian-based distributions such as Ubuntu have all the necessary signing keys built in. However installer files for Linux distros tend to be rather particular because of package management. I have to set up a package mirror to make it work, I think. But after that, it should be transparent to the Linux user.
