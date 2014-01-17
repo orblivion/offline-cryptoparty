@@ -19,15 +19,27 @@
   * Crypto aware: Speak Up! Stop me if I'm wrong.
   * Not crypto aware: Do not trust me! (in particular)
   * I'll (hopefully) convince everybody that you can trust my software.
-* Sha1sums and Fingerprints for software
+* SHA-1 and PGP Fingerprints for software
   * Did you get them ahead of time?
   * If not, hop on your chosen source of Internet connection, go here:
     * github.com/orblivion/offline-cryptoparty/crypto_before.md
+* SHA-1
+  * Verify Integrity
+  * If two files have the same SHA-1, they're the same file
+  * No telling where the file came from
+* GPG
+  * Establish authenticity
+  * Requires trusted public key of author
+* Combined together
+  * GPG authenticate on one computer
+  * SHA-1 sum on both computers to compare
+  * Authenticated on both computers
+  * Assumes the authenticator is trusted
+  * Multiple people, open invitation
 
 ## Installers
 
 What you'll be installing:
-
 
 ### Windows
 
@@ -55,20 +67,16 @@ What you'll be installing:
 
 ### Download
 
-* Everybody's installers
+* Everybody gets everybody's installers
   * Help verify each other
-* **don't** install it yet, first we verify
+  * Afterwards, no less secure than open Internet.
+* **DON'T** install it yet, first we verify
+  * Kids, don't take crypto software from strangers!
 * As a [zip file](installers/althecryptothings.zip) (Mac and Windows)
 * As a [tar.gz file](installers/althecryptothings.tar.gz) (Mac and Windows)
+* Extract to a directory you can work with
 
 TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess just put the files there.
-
-### Extract
-
-* **DON'T** install anything yet.
-  * Kids, don't take crypto software from strangers!
-* You have everybody's installers. You will help verify each other's stuff.
-* No less secure than open Internet.
 
 ### Windows Only
 
@@ -78,7 +86,8 @@ TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess 
   * Microsoft Corporation
   * Certificate Authority
 * Once satisfied, go ahead and install.
-* You can verify files. (Linux and Mac have this built in)
+* You can now verify file integrity (Linux and Mac have this built in)
+  * Not authenticity, that's GPG
 
 ### People with GPG already
 
