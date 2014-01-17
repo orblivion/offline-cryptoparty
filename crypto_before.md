@@ -16,10 +16,9 @@ You will gather 6 pieces of information, each of which is 40 alphanumeric charac
 
 Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages.
 
-First GnuPG. If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows and gpgtools.org for Mac OS X.
-
 ### 1) GPG4Win checksums
 
+* If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
 * Copy the sha1 checksums for the main installer. (TODO: give name)
 
@@ -32,6 +31,7 @@ First GnuPG. If you go to: http://www.gnupg.org/ you will see that it endorses g
 
 ### 3) GPGTools checksum
 
+* If you go to: http://www.gnupg.org/ you will see that it endorses gpgtools.org for Mac OS X.
 * Visit the [GPGTools](https://gpgtools.org/) homepage. 
 * Under "GPG Suite" at the very bottom, under MacGPG, you will see *SHA-1*. Copy the string of characters that follow.
 
