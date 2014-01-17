@@ -1,5 +1,7 @@
 ## Presentation
 
+* On host's screen.
+
 ## Explanation of software
 
 * Thunderbird - mail client
