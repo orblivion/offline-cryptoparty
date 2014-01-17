@@ -27,7 +27,7 @@ Obviously it would make no sense as far a trust goes to give you the data myself
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
 * From here, click the link to the [Intervation File Distribution Key](https://ssl.intevation.de/). It's under **OpenPGP Signatures**.
 * From here, click on [Intevation-Distribution-Key](https://ssl.intevation.de/Intevation-Distribution-Key.asc). It's under **Other Keys/Certificates** on the right (in English).
-* Here you will see "Key fingerprint = ". Copy what comes after that.
+* On the second line here, you will see "Key fingerprint = ". Copy what comes after that.
 
 ### 3) GPGTools checksum
 
