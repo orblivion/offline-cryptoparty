@@ -20,7 +20,7 @@ Obviously it would make no sense as far a trust goes to give you the data myself
 
 * If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows
 * Visit The [gpg4win package integrity](http://www.gpg4win.org/package-integrity.html) page.
-* Copy the sha1 checksums for the main installer. (TODO: give name)
+* Copy the SHA-1 checksum for `gpg4win-2.2.1.exe`
 
 ### 2) GPG4Win Signing Key Fingerprint
 
