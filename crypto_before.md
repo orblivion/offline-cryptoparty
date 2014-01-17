@@ -12,7 +12,9 @@ Granted, even your current Internet connection could theoretically be compromise
 
 ## Instructions
 
-Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages. Again, each piece of information is just 40 alphanumeric characters.
+You will gather 6 pieces of information, each of which is 40 alphanumeric characters. Some are known as SHA-1 sums, and the others are known as PGP fingerprints. You need not know what these means now. Your host, and any other crypto-aware guests, will explain it to you at the party, and what they can do to confirm the software.
+
+Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages.
 
 First GnuPG. If you go to: http://www.gnupg.org/ you will see that it endorses gpg4win.org for Windows and gpgtools.org for Mac OS X.
 
