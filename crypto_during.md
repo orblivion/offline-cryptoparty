@@ -91,13 +91,25 @@ TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess 
 
 ### People with GPG already
 
-* Get all the development keys from my keyserver
+* Get and trust keys
   * gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys
   * don't trust them yet!
-  * gpg --fingerprint TODO some filter for the right ones, hmm
+  * gpg --fingerprint TODO all the keys
   * Check that they match what you got.
   * Now you can trust them.
-* gpg --verify 
+* Verify installers
+
+TODO correct file names and stuff. May require `SHA-1` file :(.
+
+`gpg --verify thunderbird_mac.sig`
+
+`gpg --verify thunderbird_win.sig`
+
+`gpg --verify enigmail.sig`
+
+`gpg --verify gpg_win.sig`
+
+`gpg --verify gpg_mac.sig`
 
 1) People with GPG already installed can check the GPG signature of all the GPG installers to confirm that the copy *they* have on their computer is legitimate.
 2) Everybody run the sha1sum -c (or equivalent) on gpg_installers.sha1 file. This establishes that all of the files match the description in the gpg_installers.sha1sum file I supplied. Take a look at the file to see that it points to all GPG installers. This doesn't establish much yet, since I supplied gpg_installers.sha1sum.

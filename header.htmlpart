@@ -4,6 +4,7 @@
     #content {margin:100px}
     #content h2 {color:green}
     #content h3 {font-size:1.05em}
+    code {background-color:#DDD; padding:5px; margin-left:5px; }
 </style>
 </head>
 <body>
