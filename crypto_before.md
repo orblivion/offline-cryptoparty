@@ -16,7 +16,7 @@ You will gather 6 pieces of information, each of which is 40 alphanumeric charac
 
 Simply save them, labeled, in a text file that you will bring to the party. Some are known as SHA-1 sums, and the others are known as PGP fingerprints.
 
-Obviously it would make no sense as far a trust goes to give you the data myself, so I will guide you to how to find it from official pages.
+Obviously it would make no sense as far as trust goes to give you the data myself, so I will guide you to how to find it from official pages.
 
 ### 1) GPG4Win SHA-1 sum
 
