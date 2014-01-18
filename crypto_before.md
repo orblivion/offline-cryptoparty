@@ -63,5 +63,3 @@ Since this is for the sake of verifying untrusted information, you should go str
 I appreciate going out of your way to help me with this experiment.
 
 By the way, you may be wondering about Linux. Unfortunately that got too complicated so I'm putting it off. Rather ironic, since Debian-based distributions such as Ubuntu have all the necessary signing keys built in. However installer files for Linux distros tend to be rather particular because of package management. I have to set up a package mirror to make it work, I think. But after that, it should be transparent to the Linux user.
-
-#### **developer note to self: TODO check that the keys are not revoked**
