@@ -21,8 +21,7 @@
   * I'll (hopefully) convince everybody that you can trust my software.
 * SHA-1 and PGP Fingerprints for software
   * Did you get them ahead of time?
-  * If not, hop on your chosen source of Internet connection, go here:
-    * github.com/orblivion/offline-cryptoparty/crypto_before.md
+  * If not, hop on your chosen source of Internet connection, [go here](github.com/orblivion/offline-cryptoparty/crypto_before.md):
 * SHA-1
   * Verify Integrity
   * If two files have the same SHA-1, they're the same file
