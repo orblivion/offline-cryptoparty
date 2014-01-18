@@ -1,3 +1,5 @@
 *.dmg
 *.exe
 *.xpi
+*.sig
+*.asc
