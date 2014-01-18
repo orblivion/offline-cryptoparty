@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # TODO - use the header, footer stuff to make this purdy
+# TODO - /var/www/allkeys.txt should be a variable
 
 # It seems it will not be happy to do this stuff while running. At very
 # least, it seems that if I do this while running, it needs to be
