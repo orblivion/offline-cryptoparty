@@ -96,7 +96,7 @@ TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess 
   * Everybody read off the fingerprints you got.
   * Now we know we all have the same fingerprints.
 
-`gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys`
+`gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys TODO send the keys to the keyserver in the first place`
 
   * don't trust them yet!
   * gpg --fingerprint TODO all the keys
