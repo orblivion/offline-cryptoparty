@@ -101,17 +101,29 @@ TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess 
 
 TODO correct file names and stuff. May require `SHA-1` file :(.
 
-`gpg --verify thunderbird_mac.sig`
-
-`gpg --verify thunderbird_win.sig`
-
-`gpg --verify enigmail.sig`
-
 `gpg --verify gpg_win.sig`
 
 `gpg --verify gpg_mac.sig`
 
-1) People with GPG already installed can check the GPG signature of all the GPG installers to confirm that the copy *they* have on their computer is legitimate.
+### Comparing Installers
+
+TODO correct command and installer file names
+
+* Windows:
+
+`sha1 gpg_win.exe`
+`sha1 gpg_win.exe`
+
+* Mac:
+
+`openssl sha1 gpg_win.exe`
+`openssl sha1 gpg_win.exe`
+
+* Linux:
+
+`sha1sum gpg_win.exe`
+`sha1sum gpg_win.exe`
+
 2) Everybody run the sha1sum -c (or equivalent) on gpg_installers.sha1 file. This establishes that all of the files match the description in the gpg_installers.sha1sum file I supplied. Take a look at the file to see that it points to all GPG installers. This doesn't establish much yet, since I supplied gpg_installers.sha1sum.
 3) Everybody run plain sha1sum on gpg_installers.sha1sum file. The sum you should get, I will read out loud, and you should verify. This establishes that everybody has same gpg_installers.sha1sum file on their computer, and thus all the same GPG installer files on their computer. (I could have been sneaky and given everybody different installers)
 4) Now, as sure as you trust the existing GPG users around you, and the open Internet, you can trust the GPG installer. Install that.
@@ -123,4 +135,14 @@ gpg --recv_keys ... (all the keys)
 Windows:
 whateversha1 allfiles.sha1sum
 
+
+
+Later: everybody:
+
+
+`gpg --verify thunderbird_mac.sig`
+
+`gpg --verify thunderbird_win.sig`
+
+`gpg --verify enigmail.sig`
 
