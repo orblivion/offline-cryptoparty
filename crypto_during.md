@@ -107,33 +107,29 @@ What you'll be installing:
 
 * Verify installers
 
-TODO correct file names and stuff. May require `SHA-1` file :(.
+`gpg --verify gpg4win-2.2.1.exe.sig`
 
-`gpg --verify gpg_win.sig`
-
-`gpg --verify gpg_mac.sig`
+`gpg --verify "GPG Suite - 2013.10.22.dmg.sig"`
 
 ### Comparing Installers
-
-TODO correct command and installer file names
 
 * Carefully check that SHA-1 sum of gpg installers match what you have.
 * I could have been sneaky and given everybody different installers
 
 #### Windows:
 
-`sha1 gpg_win.exe`
-`sha1 gpg_mac.dmg`
+`fciv gpg4win-2.2.1.exe`
+`fciv "GPG Suite - 2013.10.22.dmg"`
 
 #### Mac:
 
-`openssl sha1 gpg_win.exe`
-`openssl sha1 gpg_mac.dmg`
+`openssl sha1 gpg4win-2.2.1.exe`
+`openssl sha1 "GPG Suite - 2013.10.22.dmg"`
 
 #### Linux:
 
-`sha1sum gpg_win.exe`
-`sha1sum gpg_mac.dmg`
+`sha1sum gpg4win-2.2.1.exe`
+`sha1sum "GPG Suite - 2013.10.22.dmg"`
 
 Now, as sure as you trust the existing GPG users around you, and the open Internet, you can trust the GPG installer. Install it.
 
@@ -156,9 +152,7 @@ Since you just installed GPG, you should get the verification keys as well:
 
 Now that everybody has GPG, and keys that you trust (as much as you trust your home Internet connection), we can verify the other installers.
 
-TODO actual file name
-
-`gpg --verify enigmail.sig`
+`gpg --verify enigmail-1.6-sm+tb.xpi.asc`
 
 ### Verify Thunderbird installer
 
