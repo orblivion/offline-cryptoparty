@@ -1,3 +1,5 @@
+# TODO check that the keys are not revoked
+
 ## What am I doing here, and why am I doing this?
 
 In order to allow for a crypto party with a bad or nonexistent Internet connection, it would save a lot of time for the host to have the installers on hand. However, this poses a threat: Like your mom always told you, don't take crypto software from strangers! The instructions here will give you information that will allow you to verify the software that the host gives you. It is likely that not everybody will have time to follow these instructions, but putting this out there means that those who do not do this are trusting not just the host, but also the most trustworthy of an *open* pool of guests (a closed group could be in cahoots). So it would be appreciated if you help us by being an additional guardian. Getting this information during the party is fine as well if you trust the Internet connection there. However, doing it ahead of time removes more possibility of smoke and mirrors.
