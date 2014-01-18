@@ -63,7 +63,7 @@ What you'll be installing:
   * from repository otherwise
 * Enigmail (from repository, or using Thunderbird's interface)
 
-## Instructions
+## Download, Verifiy, Install
 
 ### Download
 
@@ -180,3 +180,50 @@ TODO actual file and command names
 ### Install Thunderbird and Enigmail
 
 If it all checked out, it should be safe!
+
+* Install Thunderbird
+* Set up email account
+* Install Enigmail
+
+## Setup
+
+### Publishing Keys
+
+* Generate Key
+* Set up to sign and encrypt by default
+* Send keys to server
+* Assume any interaction with keyservers is public knowledge.
+
+### Signing Keys
+
+* Host will generate a GPG command to import everybody else's key
+* Now, [visit it](...) TODO correct URL
+* For each participant:
+  * Everybody (including the participant) pull up their key in Key Management
+  * Key owner reads their Fingerprint
+  * Everybody else carefully confirms it
+  * Everybody else signs it
+  * Evereyboy else sets trust
+
+#### Signature Trust
+
+How sure are you that this key belongs to the person it claims to? Depends how well you can *identify* the person you're signing.
+
+TODO confirm the accuracy/usefulness of these. Add more levels.
+
+* Casual - for most people you meet
+* Careful - maybe you checked an ID, or you know them personally
+
+#### Owner Trust
+
+How sure are you that the owner of the key will authenticate *other* people honestly, and carefully?
+
+TODO confirm the accuracy/usefulness of these. Add more levels.
+
+* Marginal - for pretty much everybody
+* Ultimately - for yourself
+
+### Publishing Signatures
+
+* Push back to key server to give your endorsement of everybody else to everybody
+* Refresh keys to get everybody else's endorsements
