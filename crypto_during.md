@@ -118,8 +118,8 @@ What you'll be installing:
 
 #### Windows:
 
-`fciv gpg4win-2.2.1.exe`
-`fciv "GPG Suite - 2013.10.22.dmg"`
+`fciv gpg4win-2.2.1.exe -sha1`
+`fciv "GPG Suite - 2013.10.22.dmg" -sha1`
 
 #### Mac:
 
@@ -156,14 +156,17 @@ Now that everybody has GPG, and keys that you trust (as much as you trust your h
 
 ### Verify Thunderbird installer
 
-TODO actual file and command names
-
 * Thunderbird is a bit more of a PITA
 * verify checksum file
 
-`gpg --verify thunderbird_checksum`
+`gpg --verify thunderbird_SHA1SUMS.asc`
 
-* look in checksum file, find mac and win installer checksums TODO give filenames
+* We proved Mozilla endorses the SHA-1 sum, now we see that the SHA-1 sum matches our installer.
+  * Windows: `fciv "Thunderbird Setup 24.2.0.exe" -sha1`
+  * Mac: `openssl sha1 "Thunderbird 24.2.0.dmg"`
+* look in `thunderbird_SHA1SUMS` file
+  * find the checksum for your installer
+  * see that it points to your installer
 
 #### Windows:
 
