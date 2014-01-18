@@ -78,7 +78,7 @@ What you'll be installing:
 
 TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess just put the files there.
 
-### Windows Only
+### Windows Only - Install checksum tool
 
 * Find sha1sum program # TODO get its name
 * Right click on it.
@@ -89,14 +89,20 @@ TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess 
 * You can now verify file integrity (Linux and Mac have this built in)
   * Not authenticity, that's GPG
 
-### People with GPG already
+### People with GPG already - Verify GPG installers
 
 * Get and trust keys
-  * gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys
+  * Grab the fingerprints if you don't have them, from me (untrusted) if necessary.
+  * Everybody read off the fingerprints you got.
+  * Now we know we all have the same fingerprints.
+
+`gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys`
+
   * don't trust them yet!
   * gpg --fingerprint TODO all the keys
-  * Check that they match what you got.
+  * Check that they match what you have (and thus what everybody else has)
   * Now you can trust them.
+
 * Verify installers
 
 TODO correct file names and stuff. May require `SHA-1` file :(.
@@ -109,40 +115,68 @@ TODO correct file names and stuff. May require `SHA-1` file :(.
 
 TODO correct command and installer file names
 
-* Windows:
+* Carefully check that SHA-1 sum of gpg installers match what you have.
+* I could have been sneaky and given everybody different installers
+
+#### Windows:
 
 `sha1 gpg_win.exe`
-`sha1 gpg_win.exe`
+`sha1 gpg_mac.dmg`
 
-* Mac:
+#### Mac:
 
 `openssl sha1 gpg_win.exe`
-`openssl sha1 gpg_win.exe`
+`openssl sha1 gpg_mac.dmg`
 
-* Linux:
+#### Linux:
 
 `sha1sum gpg_win.exe`
-`sha1sum gpg_win.exe`
+`sha1sum gpg_mac.dmg`
 
-2) Everybody run the sha1sum -c (or equivalent) on gpg_installers.sha1 file. This establishes that all of the files match the description in the gpg_installers.sha1sum file I supplied. Take a look at the file to see that it points to all GPG installers. This doesn't establish much yet, since I supplied gpg_installers.sha1sum.
-3) Everybody run plain sha1sum on gpg_installers.sha1sum file. The sum you should get, I will read out loud, and you should verify. This establishes that everybody has same gpg_installers.sha1sum file on their computer, and thus all the same GPG installer files on their computer. (I could have been sneaky and given everybody different installers)
-4) Now, as sure as you trust the existing GPG users around you, and the open Internet, you can trust the GPG installer. Install that.
-5) As a second assurance, you can just check the sha1sum you got from GPG's website, using your favorite Internet connection, and use that.
-6) Now that you have GPG, you can check the signature of the Thunderbird and Enigmail installers. Everybody who didn't have GPG installed, run:
+Now, as sure as you trust the existing GPG users around you, and the open Internet, you can trust the GPG installer. Install it.
 
-gpg --recv_keys ... (all the keys)
+#### Get the keys now
 
-Windows:
-whateversha1 allfiles.sha1sum
+Since you just installed GPG, you should get the verification keys as well:
 
+TODO - the keys
 
+`gpg --recv_keys ... (all the keys)`
 
-Later: everybody:
+### Verify Enigmail installer
 
+Now that everybody has GPG, and keys that you trust (as much as you trust your home Internet connection), we can verify the other installers.
 
-`gpg --verify thunderbird_mac.sig`
-
-`gpg --verify thunderbird_win.sig`
+TODO actual file name
 
 `gpg --verify enigmail.sig`
 
+### Verify Thunderbird installer
+
+TODO actual file and command names
+
+* Thunderbird is a bit more of a PITA
+* verify checksum file
+
+`gpg --verify thunderbird_checksum`
+
+* look in checksum file, find mac and win installer checksums TODO give filenames
+
+#### Windows:
+
+`sha1 thunderbird_win.exe`
+`sha1 thunderbird_mac.dmg`
+
+#### Mac:
+
+`openssl sha1 thunderbird_win.exe`
+`openssl sha1 thunderbird_mac.dmg`
+
+#### Linux:
+
+`sha1sum thunderbird_win.exe`
+`sha1sum thunderbird_mac.dmg`
+
+### Install Thunderbird and Enigmail
+
+If it all checked out, it should be safe!
