@@ -9,6 +9,7 @@ gpg --list-keys 9369CDF3 > /dev/null || error_exit "Need enigmail key: https://w
 gpg --list-keys EC70B1B8 > /dev/null || error_exit "Need gpg4win key: https://ssl.intevation.de/Intevation-Distribution-Key.asc"
 gpg --list-keys 00D026C4 > /dev/null || error_exit "Need gpgtools (OSX) key: http://support.gpgtools.org/discussions/everything/13958-need-the-gpgtools-public-key-to-verify-the-sig-file#comment_30424358"
 
+# Enter installers directory for simplicity
 cd installers
 
 # Windows sha1/md5 utility:
@@ -56,3 +57,10 @@ gpg --verify thunderbird_SHA1SUMS.asc || error_exit "Bad sig for thunderbird SHA
 # Verify Sha1sums are in file
 ls "Thunderbird Setup 24.2.0.exe" && grep $(sha1sum "Thunderbird Setup 24.2.0.exe" | cut -b 1-40) thunderbird_SHA1SUMS || error_exit "Bad sha1 for Thunderbird Win"
 ls "Thunderbird 24.2.0.dmg" && grep $(sha1sum "Thunderbird 24.2.0.dmg" | cut -b 1-40) thunderbird_SHA1SUMS || error_exit "Bad sha1 for Thunderbird Mac"
+
+# Go back to installers parent to create archives
+cd ..
+
+echo "Creating archives for download"
+tar cz installers > installers_download/cryptoparty.tar.gz
+zip -r installers_download/cryptoparty.zip installers
