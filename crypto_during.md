@@ -86,6 +86,10 @@ What you'll be installing:
 * You can now verify file integrity (Linux and Mac have this built in)
   * Not authenticity, that's GPG
 
+#### Note
+
+I'm actually not sure whether thunderbird GPG and Enigmail are already signed using the same system. Could you check it? Perhaps this whole process is actually much simpler for you. Though, not sure who the certificate authorities would be.
+
 ### People with GPG already - Verify GPG installers
 
 * Get and trust keys
