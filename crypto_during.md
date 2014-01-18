@@ -72,7 +72,7 @@ What you'll be installing:
 * **DON'T** install it yet, first we verify
   * Kids, don't take crypto software from strangers!
 * As a [zip file](/installers_download/cryptoparty.zip) (Windows, probably Mac)
-* As a [tar.gz file](/installers_download/cryptoparty.zip) (Linux, maybe Mac)
+* As a [tar.gz file](/installers_download/cryptoparty.tar.gz) (Linux, maybe Mac)
 * Extract to a directory you can work with
 
 ### Windows Only - Install checksum tool
