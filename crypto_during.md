@@ -197,7 +197,7 @@ If it all checked out, it should be safe!
 ### Signing Keys
 
 * Host will generate a GPG command to import everybody else's key
-* Now, [visit it](...) TODO correct URL
+* Now, [visit it](http://cryptoparty.com/allkeys.txt)
 * For each participant:
   * Everybody (including the participant) pull up their key in Key Management
   * Key owner reads their Fingerprint
