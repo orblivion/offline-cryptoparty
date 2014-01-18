@@ -198,6 +198,7 @@ If it all checked out, it should be safe!
 
 * Host will generate a GPG command to import everybody else's key
 * Now, [visit it](http://cryptoparty.com/allkeys.txt)
+* If you'd like, you can also check out the [normal web interface](http://cryptoparty.com:11371/) for the key server.
 * For each participant:
   * Everybody (including the participant) pull up their key in Key Management
   * Key owner reads their Fingerprint
