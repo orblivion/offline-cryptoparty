@@ -72,15 +72,13 @@ What you'll be installing:
   * Afterwards, no less secure than open Internet.
 * **DON'T** install it yet, first we verify
   * Kids, don't take crypto software from strangers!
-* As a [zip file](installers/althecryptothings.zip) (Mac and Windows)
-* As a [tar.gz file](installers/althecryptothings.tar.gz) (Mac and Windows)
+* As a [zip file](/installers_download/cryptoparty.zip) (Windows, probably Mac)
+* As a [tar.gz file](/installers_download/cryptoparty.zip) (Linux, maybe Mac)
 * Extract to a directory you can work with
-
-TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess just put the files there.
 
 ### Windows Only - Install checksum tool
 
-* Find sha1sum program # TODO get its name
+* Find Windows-KB841290-x86-ENU.exe, the installer for Microsoft File Checksum Integrity Verifier
 * Right click on it.
   * Digital Signature
   * Microsoft Corporation
@@ -96,11 +94,15 @@ TODO link above with everything Windows and Mac, and Enigmail Linux. Or I guess 
   * Everybody read off the fingerprints you got.
   * Now we know we all have the same fingerprints.
 
-`gpg --recv_keys --keyserver cryptoparty.com # TODO all the keys TODO send the keys to the keyserver in the first place`
+`gpg --keyserver cryptoparty.com --recv_keys 3A06537A EC70B1B8 00D026C4 9369CDF3
 
   * don't trust them yet!
-  * gpg --fingerprint TODO all the keys
-  * Check that they match what you have (and thus what everybody else has)
+  * Check out the fingerprints:
+    * gpg --fingerprint 3A06537A
+    * gpg --fingerprint EC70B1B8
+    * gpg --fingerprint 00D026C4
+    * gpg --fingerprint 9369CDF3
+  * Check that they match what you have from preparation (and thus what everybody else has)
   * Now you can trust them.
 
 * Verify installers
@@ -139,9 +141,16 @@ Now, as sure as you trust the existing GPG users around you, and the open Intern
 
 Since you just installed GPG, you should get the verification keys as well:
 
-TODO - the keys
+`gpg --keyserver cryptoparty.com --recv_keys 3A06537A EC70B1B8 00D026C4 9369CDF3
 
-`gpg --recv_keys ... (all the keys)`
+  * don't trust them yet!
+  * Check out the fingerprints:
+    * gpg --fingerprint 3A06537A
+    * gpg --fingerprint EC70B1B8
+    * gpg --fingerprint 00D026C4
+    * gpg --fingerprint 9369CDF3
+  * Check that they match what you have from preparation (and thus what everybody else has)
+  * Now you can trust them.
 
 ### Verify Enigmail installer
 
@@ -197,7 +206,7 @@ If it all checked out, it should be safe!
 ### Signing Keys
 
 * Host will generate a GPG command to import everybody else's key
-* Now, [visit it](http://cryptoparty.com/allkeys.txt)
+* Now, [visit it](/allkeys.txt)
 * If you'd like, you can also check out the [normal web interface](http://cryptoparty.com:11371/) for the key server.
 * Heads Up: I'm hijacking some traffic.
   * I have this router configured to redirect several popular key servers (sks.mit.edu, etc) to here, in case some versions of Enigmail don't make it obvious how to change which server you're talking to.
