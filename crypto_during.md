@@ -236,3 +236,4 @@ TODO confirm the accuracy/usefulness of these. Add more levels.
 
 * Push back to key server to give your endorsement of everybody else to everybody
 * Refresh keys to get everybody else's endorsements
+* Now, one of us just has to refresh our keys to one of the major key servers
