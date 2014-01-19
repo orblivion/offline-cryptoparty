@@ -12,11 +12,11 @@ Granted, even your current Internet connection could theoretically be compromise
 
 ## Instructions
 
-You will gather 6 pieces of information, each of which is 40 alphanumeric characters. They will help you confirm the software given to you. Your host, and any other crypto-aware guests, will explain in more detail at the party, what they mean and how to use them.
-
-Simply save them, labeled, in a text file that you will bring to the party. Some are known as SHA-1 sums, and the others are known as PGP fingerprints.
+You will gather 6 pieces of information, each of which is 40 alphanumeric characters. Some are known as SHA-1 sums, which confirm file integrity, ie that a file in two different locations are *identical*, but does not confirm authenticity of the file. The others are known as PGP fingerprints, which confirm integrity *and* authenticity, but may not be usable. (In our case, we need SHA-1 sums for the GPG installers because GPG is necessary to make use of a PGP fingerprint) Your host, and any other crypto-aware guests, will explain in more detail at the party, what they mean and how to use them.
 
 Since this is for the sake of verifying untrusted information, you should go straight to the source, rather than this not-so-trusted page. (Especially if the host of the party sent you here). So, instead, this will guide you to how to find it from official pages.
+
+Simply save them, labeled, in a text file that you will bring to the party. Some are known as SHA-1 sums, and the others are known as PGP fingerprints.
 
 ### 1) GPG4Win SHA-1 sum
 
