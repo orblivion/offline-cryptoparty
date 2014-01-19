@@ -97,7 +97,7 @@ I'm actually not sure whether thunderbird GPG and Enigmail are already signed us
   * Everybody read off the fingerprints you got.
   * Now we know we all have the same fingerprints.
 
-`gpg --keyserver cryptoparty.com --recv_keys 3A06537A EC70B1B8 00D026C4 9369CDF3
+`gpg --keyserver cryptoparty.com --recv_keys 3A06537A EC70B1B8 00D026C4 9369CDF3`
 
   * don't trust them yet!
   * Check out the fingerprints:
